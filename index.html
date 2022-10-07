@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KPI</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #70bdf4">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">KPI</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+                id="add-btn"
+                >Add</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+              id="search-inp"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <!-- for adding -->
+            <div
+              class="w-100 justify-content-center text-center"
+              id="add-modal"
+            >
+              <div class="mt-5 d-flex flex-column w-100">
+                <h2>Student</h2>
+                <input
+                  type="text"
+                  placeholder="Name"
+                  class="mb-2 w-50 m-auto"
+                  id="add-name-inp"
+                />
+                <input
+                  type="text"
+                  placeholder="Surname"
+                  class="mb-2 w-50 m-auto"
+                  id="add-surname-inp"
+                />
+                <input
+                  type="url"
+                  placeholder="img url"
+                  class="mb-2 w-50 m-auto"
+                  id="add-img-inp"
+                />
+                <input
+                  type="text"
+                  placeholder="Phone Number"
+                  class="mb-2 w-50 m-auto"
+                  id="add-phone-inp"
+                />
+                <input
+                  type="text"
+                  placeholder="Weekly KPI"
+                  class="mb-2 w-50 m-auto"
+                  id="add-weekly-inp"
+                />
+                <input
+                  type="text"
+                  placeholder="Monthly KPI"
+                  class="mb-2 w-50 m-auto"
+                  id="add-monthly-inp"
+                />
+                <button
+                  type="button"
+                  class="btn btn-primary w-50 m-auto"
+                  id="modal-add-btn"
+                  onclick="addStudent()"
+                >
+                  Add Student
+                </button>
+                <button
+                  style="display: none !important"
+                  type="button"
+                  class="btn btn-primary w-50 m-auto"
+                  id="save-changes-btn"
+                >
+                  Save Changes
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              id="close"
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal end -->
+
+    <!-- content -->
+    <div
+      class="d-flex flex-wrap justify-content-center"
+      id="content-block"
+    ></div>
+    <!-- content end -->
+
+    <!-- pagination block -->
+    <div class="d-flex w-100 justify-content-center pagination-block">
+      <a
+        class="btn btn-primary m-1"
+        href="#"
+        aria-label="Previous"
+        id="prev-page"
+      >
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+      <a class="btn btn-primary m-1" href="#" aria-label="Next" id="next-page">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </div>
+    <!-- pagination block end -->
+
+    <script src="./main.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

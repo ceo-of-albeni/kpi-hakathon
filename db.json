@@ -1,0 +1,67 @@
+{
+  "students": [
+    {
+      "id": 8,
+      "name": "name",
+      "surname": "qeds",
+      "number": "12345",
+      "image": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+      "weeklyKPI": "32",
+      "monthlyKPI": "67"
+    },
+    {
+      "id": 9,
+      "name": "New",
+      "surname": "surr",
+      "number": "123456",
+      "image": "https://img.freepik.com/premium-photo/astronaut-outer-open-space-planet-earth-stars-provide-background-erforming-space-planet-earth-sunrise-sunset-our-home-iss-elements-this-image-furnished-by-nasa_150455-16829.jpg?w=2000",
+      "weeklyKPI": "56",
+      "monthlyKPI": "7"
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg",
+      "name": "afewcd",
+      "surname": "faecds",
+      "number": "12324",
+      "weeklyKPI": "13",
+      "monthlyKPI": "324",
+      "id": 11
+    },
+    {
+      "id": 12,
+      "name": "karr",
+      "surname": "wqer",
+      "number": "2134",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg",
+      "weeklyKPI": "12",
+      "monthlyKPI": "3243"
+    },
+    {
+      "id": 13,
+      "name": "meow",
+      "surname": "qwer",
+      "number": "123245",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg",
+      "weeklyKPI": "32",
+      "monthlyKPI": "234"
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg",
+      "name": "324",
+      "surname": "edws",
+      "number": "3243",
+      "weeklyKPI": "423",
+      "monthlyKPI": "3243",
+      "id": 14
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg",
+      "name": "dwefsdf",
+      "surname": "adfsdvf",
+      "number": "12345",
+      "weeklyKPI": "32",
+      "monthlyKPI": "324",
+      "id": 15
+    }
+  ]
+}
